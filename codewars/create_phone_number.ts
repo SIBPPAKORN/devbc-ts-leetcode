@@ -9,4 +9,3 @@ export function createPhoneNumber(numbers: number[]): string {
 
 	return `(${areaCode}) ${firstPart}-${secondPart}`;
 }
-console.log(createPhoneNumber([5, 2, 6, 7, 3, 9, 6, 0, 8, 3]));
