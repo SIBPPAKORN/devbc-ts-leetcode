@@ -12,3 +12,7 @@ test("Should return the 55", () => {
 test("Should return the 2", () => {
 	expect(findOutlier([11, 57, 91, 35, 13, 69, 81, 2])).toEqual(2);
 });
+
+test("Should return the 0", () => {
+	expect(findOutlier([11, 57])).toEqual(0);
+});
