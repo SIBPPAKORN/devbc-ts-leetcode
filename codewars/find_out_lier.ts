@@ -11,3 +11,6 @@ export function findOutlier(arr: number[]): number | string {
 
 	return odds[0];
 }
+
+const result1 = findOutlier([2, 4, 0, 100, 4, 15, 2602, 13, 36]); // Output: 11
+console.log(result1);
